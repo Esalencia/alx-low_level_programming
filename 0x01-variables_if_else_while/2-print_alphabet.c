@@ -12,7 +12,7 @@ int main()
 char c;
 
 for (c = 'a'; c <= 'a'; ++c)
-putchar(letter);
+putchar(c);
 putchar('\n');  
 return 0;
 }
