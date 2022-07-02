@@ -8,7 +8,6 @@
 int main(void)
 {
 int d = '0';
-
 while (d <= '15')
 {
 putchar(d);
