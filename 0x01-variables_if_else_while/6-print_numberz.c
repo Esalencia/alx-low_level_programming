@@ -5,14 +5,15 @@
 *
 * Return: Always 0.
 */
-int main(void)
+int main(void)i
 {
-int n = '0';
-while (n <= '9')
+int d = 0;
+
+while (d <= 9)
 {
-putchar(n);
-n++;
+putchar(d);
+d++
 }
-putchar(‘\n’);
-return (0);
-}
+putchar('\n');
+return(0);
+}	
