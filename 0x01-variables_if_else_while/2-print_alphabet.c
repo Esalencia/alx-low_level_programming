@@ -7,12 +7,12 @@
 *
 * Return: Always 0.
 */
-int main(void)
+int main() 
 {
-char letter;
+char c;
 
-for (letter = ‘a’; letter <= ‘z’; ch++)
+for (c = 'a'; c <= 'a'; ++c)
 putchar(letter);
-putchar(‘\n’);
-return (0);
+putchar('\n');  
+return 0;
 }
