@@ -7,11 +7,14 @@
 */
 int main(void)
 {
-int d = '0';
-while (d <= '15')
+int d;
+for (d = '0'; d <= '9'; d++)
 {
 putchar(d);
-d++;
+}
+for (d = 'a'; d <= 'f'; d++)
+{
+putchar(d);
 }
 putchar('\n');
 return (0);
