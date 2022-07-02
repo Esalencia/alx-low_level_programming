@@ -7,18 +7,20 @@
 */
 int main(void)
 {
-int d = '0';
+int d;
 
-while (d <= '9')
+for (d = '0'; d <= '9'; d++)
 {
 putchar(d);
+
 if (d != '9')
 {
 putchar(',');
-putchar();
+putchar(' ');
 }
-d++;
 }
+
 putchar('\n');
+
 return (0);
 }
