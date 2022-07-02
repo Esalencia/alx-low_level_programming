@@ -11,7 +11,7 @@ int main(void)
 while (d >= 'a')
 {
 putchar(d);
-d--
+d--;
 }
 putchar('\n');
 return (0);
