@@ -11,7 +11,7 @@ int main()
 {
 char c;
 
-for (c = 'a'; c <= 'a'; ++c)
+for (c = 'a'; c <= 'a'; c++)
 putchar(c);
 putchar('\n');  
 return 0;
