@@ -23,7 +23,7 @@ int main(void)
 			sum_5 = sum_5 + n;
 		}
 	}
-	sum = sum_3 + sum_5;
-	printf("%lu\n", total;sum);
+	totalsum = sum_3 + sum_5;
+	printf("%lu\n", totalsum);
 	return (0);
 }
