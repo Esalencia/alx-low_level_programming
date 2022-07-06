@@ -1,5 +1,5 @@
 #include "main.h"
-
+#include <stdio.h>
 /**
 * print_alphabet_x10() - to print lowercase of alphabet 10 times.
 *
@@ -15,7 +15,7 @@ while (c <= 'z')
 {
 _putchar(c);
 c++;
-}
 _putchar('\n');
+}
 }
 }
