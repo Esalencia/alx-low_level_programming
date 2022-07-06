@@ -5,7 +5,7 @@
 *
 * Return: Always 0.
 */
-void print_alphabet_x10(void)
+void print_alphabet_x10(voidi)
 {
 int b;
 char c = 'a';
@@ -17,6 +17,5 @@ _putchar(c);
 c++;
 }
 _putchar('\n');
-return (0);
 }
 }
