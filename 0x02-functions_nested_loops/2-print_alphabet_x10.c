@@ -5,12 +5,11 @@
 *
 * Return: Always 0.
 */
-int main(void)
+void print_alphabet_x10(void)
 {
-print_alphabet_x10();
-int a
+int b;
 char c = 'a';
-for (a = 0 ; a < 10 ; a++)
+for (b = 0 ; b < 10 ; b++)
 {
 while (c <= 'z')
 {
