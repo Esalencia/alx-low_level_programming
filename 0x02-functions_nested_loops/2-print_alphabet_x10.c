@@ -14,8 +14,9 @@ for (b = 0 ; b <= 10 ; b++)
 while (c <= 'z')
 {
 _putchar(c);
-c++;
 _putchar('\n');
+c++
 }
+putchar('\n')
 }
 }
