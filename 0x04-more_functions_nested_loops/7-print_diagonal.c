@@ -2,9 +2,8 @@
 
 /**
 * print_diagonal - draw diagonal line
-* @n: intger variable
+* @n: integer variable
 */
-
 
 void print_diagonal(int n)
 {
@@ -14,7 +13,7 @@ void print_diagonal(int n)
 		_putchar('\n');
 	for (x = 0; x < n; x++)
 	{
-		for (y = 0; y < x; x++)
+		for (y = 0; y < x; y++)
 		{
 			_putchar(' ');
 		}
