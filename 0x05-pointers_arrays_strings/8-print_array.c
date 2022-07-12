@@ -2,7 +2,7 @@
 #include <stdio.h>
 
 /**
-* print_array - prints elements of an array 
+* print_array - Prints elements of an array.
 * @a: pointer to a char
 * @n: an int
 * Return: Always 0.
