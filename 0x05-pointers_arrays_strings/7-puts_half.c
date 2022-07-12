@@ -36,8 +36,8 @@ void puts_half(char *str)
 			while (*(str + j) != '\0')
 
 		{
-			_putchar(*(str + j));
+			putchar(*(str + j));
 			j++;
 		}
-			_putchar('\n');
+			putchar('\n');
 }
