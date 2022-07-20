@@ -13,7 +13,7 @@ int x;
 while (1)
 {
 x = *s++;
-if (a == c)
+if (x == c)
 {
 return (s - 1);
 }
